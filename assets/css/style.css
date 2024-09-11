@@ -42,6 +42,7 @@ nav {
   height: 53px;
   padding: 16px 24px;
   border-radius: 4px;
+  background-color: white;
 }
 
 .btn-blue {
@@ -54,3 +55,14 @@ nav {
   background-color: white;
 }
 
+.about-us {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.about-us-image {
+  background-image: url(../images/about-image.png);
+  background-position: center;
+  background-size: cover;
+}
